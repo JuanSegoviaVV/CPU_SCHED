@@ -4,27 +4,15 @@ public class PreemptiveProritySched {
     public static void main3() {
         Scanner s = new Scanner(System.in);
 
-        int x,n,p[],pp[],bt[],w[],t[],awt,atat,i;
+        int x,n,p[],pp[],bt[],w[],t[],awt,atat,i;//awt is average waiting time and atat is average turnaround time
         System.out.print("Enter the number of process : ");
-        n = s.nextInt();
+        n = s.nextInt();//n is number of process
 
-        p = new int[n];
-        pp = new int[n];
-        bt = new int[n];
-        w = new int[n];
-        t = new int[n];
-
-        //n is number of process
-        //p is process
-        //pp is process priority
-        //bt is process burst time
-        //w is wait time
-        // t is turnaround time
-        //awt is average waiting time
-        //atat is average turnaround time
-
-
-
+        p = new int[n];//p is process
+        pp = new int[n];//pp is process priority
+        bt = new int[n];//bt is process burst time
+        w = new int[n];//w is wait time
+        t = new int[n];// t is turnaround time
 
         for(i=0;i<n;i++)
         {
